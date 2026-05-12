@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | KAM LIMITED</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#0ea5e9',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-primary">KAM LIMITED</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-primary transition">Home</a>
+                    <a href="services.html" class="text-primary font-semibold">Services</a>
+                    <a href="about.html" class="text-gray-600 hover:text-primary transition">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-primary transition">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <i class="fas fa-bars text-2xl text-gray-600"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu md:hidden bg-white border-t">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
+            <a href="services.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Services</a>
+            <a href="about.html" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="pt-32 pb-12 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Our Services</h1>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Comprehensive digital solutions to help your business grow and thrive in the modern era.</p>
+        </div>
+    </section>
+
+    <!-- Services Detail -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+                <div>
+                    <h2 class="text-3xl font-bold text-primary mb-6">Mobile App Development</h2>
+                    <p class="text-gray-600 mb-6 text-lg">We create stunning mobile applications for iOS and Android. Our apps are built with performance and user experience at the forefront.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> iOS & Android Native Development</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Cross-Platform Solutions (Flutter/React Native)</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> UI/UX Design for Mobile</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> App Store Optimization</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Mobile Apps" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24 md:flex-row-reverse">
+                <div class="md:order-2">
+                    <h2 class="text-3xl font-bold text-primary mb-6">Web Design & Development</h2>
+                    <p class="text-gray-600 mb-6 text-lg">From simple landing pages to complex e-commerce platforms, we deliver high-quality web solutions that represent your brand perfectly.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Responsive Custom Websites</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> E-commerce (Shopify, WooCommerce, Custom)</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Content Management Systems</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Speed & SEO Optimization</li>
+                    </ul>
+                </div>
+                <div class="md:order-1 bg-blue-50 p-8 rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Web Development" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-primary mb-6">IT Infrastructure & Support</h2>
+                    <p class="text-gray-600 mb-6 text-lg">We provide robust IT support and infrastructure management to ensure your business operations run smoothly and securely.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Cloud Hosting & Migration</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Cybersecurity Solutions</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> Network Setup & Maintenance</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-secondary mr-3"></i> 24/7 Technical Support</li>
+                    </ul>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&w=800&q=80" alt="IT Infrastructure" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="text-2xl font-bold text-primary mb-2">KAM LIMITED</div>
+            <p class="text-gray-600 mb-6">Plot 1, Block H, Wazo, Kinondoni, Dar es Salaam, TZ</p>
+            <p class="text-gray-500 text-sm">&copy; 2026 KAM LIMITED. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.querySelector(".mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
